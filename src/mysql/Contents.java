@@ -34,4 +34,14 @@ public class Contents {
     public void setContent(String content) {
         this.content = content;
     }
+
+    @Override
+    public String toString() {
+        System.out.println("Contents{" +
+                "no=" + no +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                '}');
+        return null;
+    }
 }

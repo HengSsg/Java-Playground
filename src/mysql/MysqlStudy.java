@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MysqlStudy {
 
-    private final Scanner scanner ;
+    private final Scanner scanner;
     private final MysqlService mysqlService;
 
     public MysqlStudy() {
