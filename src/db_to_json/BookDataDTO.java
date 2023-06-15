@@ -84,4 +84,18 @@ public class BookDataDTO {
     public void setUser_id(int user_id) {
         this.user_id = user_id;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "no=" + no +
+                ", name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", rentDate='" + rentDate + '\'' +
+                ", returnDate='" + returnDate + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", user_id=" + user_id +
+                '}';
+    }
 }
