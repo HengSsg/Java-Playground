@@ -1,11 +1,11 @@
 package exam_java;
 
-public class UserDTO {
+public class UserDTO2 {
     private int id;
     private String username;
     private boolean status;
 
-    public UserDTO(int id, String username, boolean status) {
+    public UserDTO2(int id, String username, boolean status) {
         this.id = id;
         this.username = username;
         this.status = status;
